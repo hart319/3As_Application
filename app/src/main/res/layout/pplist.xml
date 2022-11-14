@@ -1,0 +1,81 @@
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="15dp"
+    app:cardCornerRadius="20dp"
+    android:padding="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_margin="10dp"
+    android:background="#FFFFC800"
+    app:cardUseCompatPadding="true"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@drawable/gradient3"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:id="@+id/ppTopic"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Trigonometry"
+                android:textAlignment="center"
+                android:fontFamily="@font/buntunewf7"
+                android:textColor="#0f2027"
+                android:textSize="22dp"
+                android:layout_marginBottom="5dp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Years"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ppYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" 2011"
+                    android:paddingTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/buntunewf7"
+                    android:textColor="#0f2027"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

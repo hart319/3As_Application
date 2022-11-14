@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/topic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combined Maths"
+                android:fontFamily="@font/buntunewf7"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/topic_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+<!--        <androidx.cardview.widget.CardView android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--            app:cardMaxElevation="15dp"-->
+<!--            app:cardCornerRadius="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="#FFFFC800">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_gravity="center">-->
+
+<!--                <Button-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Mark as Done"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:layout_gravity="center">-->
+
+<!--                </Button>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    tools:context=".PasspActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="top">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/topic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Subject"
+                android:fontFamily="@font/buntunewf7"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardMaxElevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ppSub1btn"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/ppSub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Combined Maths"
+            android:textColor="#0f2027"
+            android:fontFamily="@font/buntunewf7"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardMaxElevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ppSub2btn"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/ppSub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Combined Maths"
+                android:textColor="#0f2027"
+                android:fontFamily="@font/buntunewf7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardMaxElevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ppSub3btn"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/ppSub3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Combined Maths"
+                android:textColor="#0f2027"
+                android:fontFamily="@font/buntunewf7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <style name="App_Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+          <item name="android:fontFamily">@font/newf1</item>
+
+      </style>
+    <style name="App_Theme1" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/newf2</item>
+
+    </style>
+
+    <style name="font_1" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/tecob</item>
+
+    </style>
+    <style name="font_2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/tekol</item>
+
+    </style>
+
+    <style name="font_3" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/tekom</item>
+
+    </style>
+
+    <style name="font_4" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/playb</item>
+
+    </style>
+
+    <style name="font_5" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/playr</item>
+
+    </style>
+    <style name="font_6" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/newf6</item>
+
+    </style>
+    <style name="font_7" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/newf7</item>
+
+    </style>
+
+    <style name="font_8" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/buntunewf6</item>
+
+    </style>
+    <style name="font_9" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/buntunewf7</item>
+
+    </style>
+
+    <style name="font_11" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/barlowe</item>
+
+    </style>
+    <style name="font_12" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/barlowm</item>
+
+    </style>
+
+    <style name="font_13" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:fontFamily">@font/barlowsemi</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

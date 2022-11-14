@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677963850575",
+    "firebase_url": "https://threeas-7c49d-default-rtdb.firebaseio.com",
+    "project_id": "threeas-7c49d",
+    "storage_bucket": "threeas-7c49d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677963850575:android:3430387ed0d8c0e0c35b3a",
+        "android_client_info": {
+          "package_name": "com.example.a3a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677963850575-p7ehkd6ef73pnd7com2g2qmrliqugipl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClR0fDUUo0AjZDycX0-QSU6j1RLozbCUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677963850575-p7ehkd6ef73pnd7com2g2qmrliqugipl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
